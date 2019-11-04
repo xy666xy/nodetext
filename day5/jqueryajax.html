@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	<script src="">
+	   $.ajax({
+    			type:"get",
+    			url:"https://loaclhost:3000/code",
+    			async:true,
+    			dataType:"json",
+    			success:function(data){
+    				$.each(data, function(i) {
+    					$(`
+    						<li>${data[i].title}</li>
+    					`).appendTo("#box")
+    				});
+    			},
+    			error:function(err){
+    				console.log(err)
+    			}
+            });	
+	</script>
+	<script src="./jquery-3.2.1.min (1).js"></script>
+</body>
+</html>
+            
