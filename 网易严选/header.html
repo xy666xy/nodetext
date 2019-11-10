@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/公共头部.css">
+</head>
+
+<body>
+    
+    <div class="contain">
+        <div class="head">
+            <div class="head_one">
+                <div class="head_two">
+                   <a class="a">用银行卡在严选购物，最高随机直减99元</a>
+                </div>
+                <div class="head_three">
+                    <ul  class="ul1">
+                        <li>登录/注册</li>
+                        <li>我的订单</li>
+                        <li>会员</li>
+                        <li>甄选家</li>
+                        <li>
+                            
+                            <span>企业采购</span>
+                            <i class="a1"></i>
+                            <div class="a12">
+                                <div class="a13">企业购</div>
+                                <div class="a13">礼品卡</div>
+                                <div class="a13" style="border: none;">联系我们</div>
+                            </div>
+
+                        </li>
+                        <li>
+                            <span>客户服务</span>
+                            <i class="a1"></i>
+                            <div class="a12">
+                                    <div class="a13">在线客服</div>
+                                    <div class="a13">帮助中心</div>
+                                    <div class="a13">商务合作</div>
+                                    <div class="a13" style="border: none;">开放平台</div>
+                                </div>
+                        </li>
+                        <li>
+                            <i class="a2"></i>
+                            <span class="a3">APP</span>
+                            <div class="a14"></div>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--  -->
+        <div class="head2">
+            <div class="head2_01">
+                <div class="a4"></div>
+                <div class="a5">
+                    <i  class="a6"></i>
+                    <span class="a7">购物车</span>
+                    <span class="a8">0</span>
+                </div>
+
+                <div class="txt">
+                    <i class="a9"></i>
+                    <input type="text" id="ipt1" placeholder="赋活原液 精准护肤">
+                    <div class="a10">搜索</div>
+                    <div class="a11">
+                        <ul class="top">
+                            <li>
+                                    <a>润肌水74折</a>
+                                    <a>回馈金卡充11得33</a>
+                                    <a>爆款 行李箱</a>
+                                    <a>绍兴黄酒58元</a>
+                            </li>
+                            <li>
+                                    <a>日式香薰机 直减50</a>
+                                    <a>预售盛典</a>
+                                    <a>便携饭盒</a>
+                                    <a>擦手巾</a>
+                                    <a>润肌水74折</a>
+                                </li>
+                                <li>
+                                        <a>润肌水74折</a>
+                                        <a>回馈金卡充11得33</a>
+                                        <a>爆款 行李箱</a>
+                                        <a>绍兴黄酒58元</a>
+                                    </li>
+                        </ul>
+
+
+                    </div>
+                    
+                </div>
+
+
+                <div class="head3">
+                    <ul class="box6">
+                        <li ><a class="zi">首页</a></li>
+                        <li class="wo"><a class="zi">居家生活</a></li>
+                        <li class="wo"><a class="zi">服饰鞋包</a></li>
+                        <li class="wo"><a class="zi">美食酒水</a></li>
+                        <li class="wo"><a class="zi">个护清洁</a></li>
+                        <li class="wo"><a class="zi">母婴亲子</a></li>
+                        <li class="wo"><a class="zi">运动旅行</a></li>
+                        <li class="wo"><a class="zi"> 数码家电</a></li>
+                        <li class="wo"><a class="zi">全球特色</a></li>
+                        <li onclick="javascript:window.open('strite.html')  "><a class="zi">为你严选 </a></li>
+                        <li onclick="javascript:window.open('many.html')  "><a class="zi"> 众筹</a></li>
+
+                      
+                    </ul>
+
+                    <div class="box">
+
+                    
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+          
+
+
+    </div>
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script>
+
+var time=setInterval(function () {
+
+$(".top").animate({ "top": -36 }, 1000, function () {
+
+    $(".top li").first().appendTo($(".top"))
+    $(".top").css("top", 0)
+})
+
+
+}, 2000)
+
+
+$(".a11").hover(function(){
+    clearInterval(time)
+},function(){
+    var time=setInterval(function () {
+
+$(".top").animate({ "top": -36 }, 1000, function () {
+
+    $(".top li").first().appendTo($(".top"))
+    $(".top").css("top", 0)
+})
+
+
+}, 2000)
+})
+
+
+
+
+
+
+    $.get("./json/1.json",function(str){
+      var arr=str.list;
+      //console.log(arr)
+        
+      $.each($(".wo"),function(i){
+
+        $(".wo").eq(i).mouseover(function(){
+
+            $(".box").html("");
+            $(".box").css("display","block")
+
+            var a=arr[i].list1;
+          //  console.log(a)
+           
+
+            $.each(a,function(x){
+              
+            $(`
+            
+            <div class="box1">
+            <div class="box2">${a[x].p}</div>
+                 
+            </div>
+            `).appendTo($(".box"))
+
+            var sp=a[x].list2;
+            
+           //console.log(sp)
+
+           $.each(sp,function(p){
+              // console.log(p)
+
+               $(`
+               
+           <div class="box3">
+           <div class="box4"><img class="img" src="${sp[p].img}" alt=""></div>
+           <span class="box5">${sp[p].p1}</span>
+            </div>
+               
+               `).appendTo($(".box1").eq(x))
+
+
+           })
+
+        
+    })
+
+
+
+        })
+
+
+        $(".wo").eq(i).mouseout(function(){
+            $(".box").css("display","none")
+        })
+
+
+
+
+      })
+
+     })
+
+
+
+
+         $(".box").mouseover(function(){
+            $(".box").css("display","block")
+        })
+
+        
+        $(".box").mouseout(function(){
+            $(".box").css("display","none")
+        })
+
+
+
+ 
+
+
+
+   $(".wo").each(function(i){
+    $(this).click(function(){ 
+     window.open("公共.html?"+i)
+
+    })
+
+   })
+
+$(".box6 li").eq(0).click(function(){
+    window.open("首页.html","_self")
+})
+
+
+  
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>

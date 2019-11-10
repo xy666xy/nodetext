@@ -1,0 +1,38 @@
+[
+{
+ "title":"海外制造商",
+  "span":"上新",
+  "class1":"name",
+  "class2":"price",
+  "class":"newShelfTag",
+  "price":"9.9元起",
+  "img":"./img/s1.webp"
+},
+{
+    "title":"CK制造商",
+     "span":"",
+     "class1":"name",
+     "class":"displ",
+     "class2":"price",
+     "price":"29.9元起",
+     "img":"./img/s2.webp"
+   },
+   {
+    "title":"新秀丽制造商",
+     "span":"",
+     "class":"displ",
+     "class1":"name name1",
+     "price":"159元起",
+     "class2":"price price1",
+     "img":"./img/s3.webp"
+   },
+   {
+    "title":"松下制造商",
+     "span":"",
+     "class":"displ",
+     "price":"319元起",
+     "class1":"name name1",
+     "class2":"price price1",
+     "img":"./img/s4.webp"
+   }
+]

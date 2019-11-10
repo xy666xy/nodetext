@@ -1,0 +1,255 @@
+body, button, input, select, textarea {
+    outline: 0;
+    font: 12px/1.5 "Microsoft Yahei","微软雅黑",verdana;
+}
+.m-indexFocus {
+    height: 420px;
+    overflow: hidden;
+    margin-top: 2px;
+}
+.m-nav{
+    background: #fff;
+    height: 80px;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 0;
+    box-sizing: border-box;
+}
+.u-wrap {
+    position: relative;
+    font-size: 20px;
+    white-space: nowrap;
+    width: 1090px;
+    margin: 0 auto;
+}
+.u-wrap .tlt {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #B4A078;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-right: 28px;
+}
+.iconList {
+    display: inline-block;
+    vertical-align: middle;
+    height: 60px;
+}
+.iconList li{
+    list-style: none;
+    float: left;
+    height: 100%;
+    width: 264px;
+    border-left: 1px solid #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconList li img{
+    margin-right: 10px;
+}
+.m-projects{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #f4f4f4;
+}
+.m-project{
+    padding: 40px 0;  
+}
+.m-productWrap{
+  
+    width: 1090px;
+    margin: 0 auto;
+}
+.m-title{
+    position: relative;
+    width: 461px;
+    margin: 0 auto 10px;
+    height: 28px;
+    background: #f4f4f4;
+}
+.u-line{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 221px;
+    height: 30px;
+    top: -14px;
+    left: 26%;
+    background: #f4f4f4;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.u-line .name {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+    font-size: 28px;
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+.m-itemList{
+    width: 100%;
+    overflow: hidden;
+    margin-right: -10px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.m-item {
+    float: left;
+    margin-top: 20px;
+    width: 535px;
+    height: 220px;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+}
+.even{
+    margin-left: 20px;
+}
+.m-info{
+    width: 300px;
+    height: 189.8px;
+    padding-left: 15px;
+    float: right;
+}
+.u-pic {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+}
+.u-pic  img{
+    transition: all 1s;
+
+}
+.u-pic:hover img {
+  transform: scale(1.1);
+}
+.u-name {
+    font-size: 20px;
+    color: #333;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 24px;
+}
+.u-desc {
+    font-size: 14px;
+    color: #999;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 6px;
+}
+.m-progress{
+    position: relative;
+    width: 300px;
+    background-color: transparent;
+    padding: 0;
+}
+.m-project .m-progressBar {
+    margin-top: 38px;
+}
+.m-progressBar .u-bar {
+    width: 220px;
+    height: 2px;
+    background-color: #F4F4F4;
+    border-radius: 2px;
+    position: relative;
+}
+.u-bar .progress {
+    height: 2px;
+    background-color: #B4A078;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.u-percent {
+    position: absolute;
+    color: #B4A078;
+    font-size: 16px;
+    line-height: 16px;
+    top: -7px;
+    left: 226px;
+}
+.m-detail-small{
+    margin-top: 37px;
+    overflow: hidden; 
+}
+.m-detail-small div {
+    width: 95px;
+    overflow: hidden;
+    white-space: nowrap;
+    float: left;
+    text-align: center;
+    border-left: 1px solid #eaeaea;
+}
+.m-detail-small div:nth-child(1){
+    border-left: 0px solid #eaeaea;
+}
+   
+   
+
+.m-detail-small div .text {
+    line-height: 1;
+    font-size: 14px;
+    color: #333;
+}
+.m-detail-small div .desc {
+    margin-top: 10px;
+    color: #999;
+    font-size: 14px;
+    line-height: 1;
+}
+.u-txt {
+    float: left;
+    font-size: 18px;
+    color: #2BAB52;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+.u-amount {
+    float: right;
+    margin: 2px 10px 0 0;
+    font-size: 14px;
+    color: #999;
+    letter-spacing: 0;
+    line-height: 14px;
+}
+.u-amount .amount {
+    margin-left: 8px;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+

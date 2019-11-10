@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    outline: 0;
+    font: 12px/1.5 "Microsoft Yahei", "微软雅黑", verdana;
+}
+
+.j-YXComponentFoot {
+    width: 100%;
+    height: 549px;
+
+
+}
+
+.yx-cp {
+    width: 1090px;
+    height: 299px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 34px;
+    background-color: #fff;
+    border-top: 1px solid #e8e8e8;
+    box-sizing: border-box;
+
+}
+
+.yx-cp-item {
+    float: left;
+    width: 33.33%;
+    height: 204px;
+    border-left: 1px solid #e9e9e9;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.yx-cp-item:first-child {
+    border-left: 0;
+}
+
+.item1 {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.yx-w-button {
+    -webkit-border-radius: 2px;
+    text-decoration: none;
+    border-radius: 2px;
+    width: 96px;
+    height: 28px;
+    padding: 0;
+    vertical-align: middle;
+    letter-spacing: normal;
+    line-height: 26px;
+    font-size: 12px;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    font-size: 12px;
+    word-spacing: normal;
+    box-sizing: border-box;
+}
+
+.yx-cp-btn {
+    width: 80px;
+    height: 100px;
+    font-size: 14px;
+    background-color: #fff;
+    padding-top: 25px;
+    text-align: center;
+    border: 1px solid #E8E8E8;
+}
+
+.icon-yxfoot-service {
+    background-image: -webkit-image-set(url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfoot-sb38e8b0402-214e6650b9.png?imageView&type=webp) 1x, url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x2/icon-yxfoot-s31a482cc9a-22e3c09f81.png?imageView&type=webp) 2x);
+    background-position: 0 -290px;
+    height: 26px;
+    width: 31px;
+    font-style: normal;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    font-size: 12px;
+    word-spacing: normal;
+    letter-spacing: normal;
+}
+
+.icon-yxfoot-feedback {
+    background-image: -webkit-image-set(url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfoot-sb38e8b0402-214e6650b9.png?imageView&type=webp) 1x, url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x2/icon-yxfoot-s31a482cc9a-22e3c09f81.png?imageView&type=webp) 2x);
+    background-position: 0 -97px;
+    height: 27px;
+    width: 30px;
+    display: inline-block;
+}
+
+.yx-f-margin-top-10 {
+    margin-top: 8px;
+}
+
+.yx-w-button:hover .icon-yxfoot-service {
+    background-image: -webkit-image-set(url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfoot-sb38e8b0402-214e6650b9.png?imageView&type=webp) 1x, url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x2/icon-yxfoot-s31a482cc9a-22e3c09f81.png?imageView&type=webp) 2x);
+    background-position: 0 -254px;
+}
+
+.yx-w-button:hover .yx-f-margin-top-10 {
+
+    color: #b4a078 !important;
+}
+
+.yx-w-button:hover .icon-yxfoot-feedback {
+    background-image: -webkit-image-set(url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfoot-sb38e8b0402-214e6650b9.png?imageView&type=webp) 1x, url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x2/icon-yxfoot-s31a482cc9a-22e3c09f81.png?imageView&type=webp) 2x);
+    background-position: 0 -60px;
+}
+
+.yx-w-button:hover .yx-f-margin-top {
+
+    color: #b4a078 !important;
+}
+
+.yx-cp-desc {
+    text-align: left;
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 22px;
+    padding: 0 37px;
+}
+
+.yx-cp-m-followUs {
+    padding: 0 37px;
+    line-height: 1;
+    text-align: left;
+}
+.yx-cp-title{
+    margin-right: 15px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 32px;
+    float: left;
+}
+.yx-cp-followWayList{
+    float: left;
+    width: 147px;
+    height: 42px;
+}
+.yx-cp-followWay {
+    margin-right: 15px;
+    position: relative;
+    padding-bottom: 10px;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+.yx-cp-icon-yxfoot{
+    display: block;
+    height: 32px;
+    width: 32px;
+    background-image: -webkit-image-set(url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfoot-sb38e8b0402-214e6650b9.png?imageView&type=webp) 1x,url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x2/icon-yxfoot-s31a482cc9a-22e3c09f81.png?imageView&type=webp) 2x);
+}
+.icon-yxfoot-yx{
+    background-position: 0 -470px;
+}
+.icon-yxfoot-service{
+ display: inline-block !important;
+}
+.icon-yxfoot-feedback{
+    display: inline-block !important;  
+}
+.icon-yxfoot-wx{
+    background-position: 0 -428px;
+}
+.icon-yxfoot-wb {
+    background-image: -webkit-image-set(url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfoot-sb38e8b0402-214e6650b9.png?imageView&type=webp) 1x,url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x2/icon-yxfoot-s31a482cc9a-22e3c09f81.png?imageView&type=webp) 2x);
+    background-position: 0 -326px;
+    height: 32px;
+    width: 32px;
+}
+.yx-cp-followWay .yx-cp-bd {
+    position: absolute;
+    display: none;
+    top: 38px;
+    left: -47px;
+    width: 123px;
+    padding-top: 5px;
+}
+.yx-cp-followWay .yx-cp-wrap {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    -webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,.2);
+    -moz-box-shadow: 0 0 3px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.2);
+    box-sizing: border-box;
+}
+.yx-cp-followWay:hover  .yx-cp-bd{
+    display: block;
+}
+.yx-cp-footQRcode {
+    display: inline-block;
+    width: 104px;
+    height: 104px;
+}
+ .yx-cp-tip {
+    color: #b4a078;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.yx-cp-m-ft2{
+    height: 250px;
+    padding-top: 37px;
+    background-color: #414141;
+}
+.yx-cp-row {
+    width: 1090px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+}
+.yx-cp-m-siteEnsure{
+    margin-bottom: 30px!important;
+    padding-left: 17px;
+    height: 50.4px;
+}
+
+.yx-cp-item-1{
+    width: 192px !important;
+    height: 50.4px !important;
+    padding-left: 17px !important;
+    overflow: hidden;
+    margin-right: 80px;
+}
+.yx-cp-item .yx-cp-inner {
+    color: #fff;
+    font-size: 18px;
+    line-height: 51px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.yx-cp-icon {
+    float: left;
+    margin-right: 17px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    font-size: 12px;
+    word-spacing: normal;
+    letter-spacing: normal;
+}
+.icon-yxfoot-netease {
+    background-image: -webkit-image-set(url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfoot-sb38e8b0402-214e6650b9.png?imageView&type=webp) 1x,url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x2/icon-yxfoot-s31a482cc9a-22e3c09f81.png?imageView&type=webp) 2x);
+    background-position: 0 -134px;
+    height: 50px;
+    width: 50px;
+}
+.yx-cp-text{
+    float: left;
+}
+.yx-cp-item-2{
+    width: 199.11px;
+    height: 50.4px;
+    border-left: 0 !important;
+    margin-right: 80px;
+}
+.icon-yxfoot-wuyou{
+    background-image: -webkit-image-set(url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfoot-sb38e8b0402-214e6650b9.png?imageView&type=webp) 1x,url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x2/icon-yxfoot-s31a482cc9a-22e3c09f81.png?imageView&type=webp) 2x);
+    background-position: 0 -368px;
+    height: 50px;
+    width: 51px;
+}
+.yx-cp-item-3{
+    width: 180.11px;
+    height: 50.4px;
+    border-left: 0 !important;
+    margin-right: 80px;
+
+}
+.icon-yxfoot-baoyou{
+    background-image: -webkit-image-set(url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfoot-sb38e8b0402-214e6650b9.png?imageView&type=webp) 1x,url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x2/icon-yxfoot-s31a482cc9a-22e3c09f81.png?imageView&type=webp) 2x);
+    background-position: 0 0;
+    height: 50px;
+    width: 51px;
+}
+.icon-yxfoot-quality{
+    background-image: -webkit-image-set(url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfoot-sb38e8b0402-214e6650b9.png?imageView&type=webp) 1x,url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x2/icon-yxfoot-s31a482cc9a-22e3c09f81.png?imageView&type=webp) 2x);
+    background-position: 0 -194px;
+    height: 50px;
+    width: 51px;
+}
+.cp-hr{
+    height: 1px;
+    margin-bottom: 27px;
+    background-color: #4f4f4f;
+    border: 0;
+}
+.yx-cp-m-siteInfo {
+    text-align: center;
+    color: #999;
+    position: relative;
+    box-sizing: border-box;
+}
+.yx-cp-m-siteInfo .yx-cp-copyright {
+    white-space: nowrap;
+    margin: 11px 0;
+}
+ .yx-cp-nav .yx-cp-text {
+    color: #999;
+    text-align: center;
+    text-decoration: none;
+   
+}
+.yx-cp-base a, .yx-cp-base a:hover {
+    text-decoration: none;
+}
+.yx-cp-nav .yx-cp-split {
+    margin: auto 13px;
+}
+.yx-cp-m-siteInfo a{
+    text-decoration: none;
+    color: #999999;
+}
+.yx-cp-m-siteInfo .yx-cp-police .yx-cp-shield img {
+    width: 23px;
+    height: 25px;
+    margin-top: -5px;
+}
+
+
+
+
+

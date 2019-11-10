@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="./js/swiper-5.0.4/package/css/swiper.min.css">
+    <link rel="stylesheet" href="css/公共.css">
+    <script src="./js/公共.js"></script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="g-bd-list">
+        <div class="g-row">
+            <div class="m-crumbs " id="j-yx-crumbs" style="display: block;">
+                <a href="/">首页</a>
+                <span class="w-icon-arrow arrow-right-hollow"></span>
+                <span class="z-cur"></span>
+            </div>
+            <div class="m-indexFocus">
+                <div class="swiper-container swiper1">
+                    <div class="swiper-wrapper swiper1-wrapper">
+                    </div>
+                    <div class="swiper-button-prev prev1"></div>
+                    <div class="swiper-button-next next1"></div>
+                    <div class="swiper-pagination pag1"></div>
+                </div>
+            </div>
+
+            <div class="m-goodsArea">
+                <div class="m-sortBar">
+                    <div class="category">
+                        <span class="name" data-reactid=".3.1.0.0.0">分类：</span>
+                        <div class="categoryGroup categoryGroup1">
+
+                        </div>
+                    </div>
+                    <div class="area" data-reactid=".3.1.0.2"><span class="name" data-reactid=".3.1.0.2.0">配送地区：</span>
+                        <div class="categoryGroup categoryGroup2" data-reactid=".3.1.0.2.1">
+
+                        </div>
+                    </div>
+                    <div class="sorts" data-reactid=".3.1.0.3">
+                        <span class="name">排序：</span>
+                        <a href="javascript:;" class="sort sort-default active" data-reactid=".3.1.0.3.1">默认</a>
+                        <a href="javascript:;" class="sort sort-price" data-reactid=".3.1.0.3.2">
+                            <span>价格</span>
+                            <div class="icon">
+                                <i class="w-icon-arrow arrow-up-gray" data-reactid=".3.1.0.3.2.1.0"></i><i
+                                    class="w-icon-arrow arrow-down-gray" data-reactid=".3.1.0.3.2.1.1"></i></div>
+                        </a><a href="javascript:;" class="sort sort-price" data-reactid=".3.1.0.3.2"><span
+                                data-reactid=".3.1.0.3.2.0">上架时间</span>
+                            <div class="icon" data-reactid=".3.1.0.3.2.1"><i class="w-icon-arrow arrow-up-gray"
+                                    data-reactid=".3.1.0.3.2.1.0"></i><i class="w-icon-arrow arrow-down-gray"
+                                    data-reactid=".3.1.0.3.2.1.1"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- <div class="gg-wrow">
+                <div class="centerl">
+                    <p class="f-clearfix">
+                        秋冬好物
+                    </p>
+                    <p class="desc">秋冬好物</p>
+                </div>
+                <div class="hsso">
+                    <div class="m-product">
+                        <div class="hd">
+                            <img class="imgSceneblock"
+                                src="https://yanxuan-item.nosdn.127.net/9dcbdaf570a11e205ec6ea86887eb21b.png?type=webp&quality=95&thumbnail=265x265&imageView"
+                                alt="">
+                            <img class="imgScene"
+                                src="https://yanxuan-item.nosdn.127.net/7c04d05d5b8ed3751b9266e5fd89a0e7.jpg?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView">
+                            <div class="promBanner">
+                                <div class="promTitle">
+                                    <div class="title"><span>狂欢特惠</span></div>
+                                    <div class="subTitle"><span style="vertical-align:middle;">¥149</span></div>
+                                </div>
+                                <div class="promContent">仅剩13天</div>
+                            </div>
+                        </div>
+                        <img class="promoLogo" style="width:48px;height:48px;"
+                            src="https://yanxuan.nosdn.127.net/bf43c8b8b8c205b14e3ac27021e04394.png">
+                        <div class="bd">
+
+                            <div class="prdtTags"><span class="m-itemTag "
+                                    data-reactid=".2.3.1.0.0.$0.1.0.$0">狂欢特惠</span><span></span></div>
+                            <h4 class="name1"><span>纯牛奶酸牛奶囤货装</span></h4>
+                            <p class="price11">
+                                <span class="retailPrice">
+                                    <span data-reactid=".2.3.1.0.0.$0.1.2.0.0">¥</span>
+                                    <span data-reactid=".2.3.1.0.0.$0.1.2.0.1">149</span>
+                                </span>
+                                <span class="counterPrice"><span>¥</span><span>169</span></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-product">
+                        <div class="hd">
+                            <img class="imgSceneblock"
+                                src="https://yanxuan-item.nosdn.127.net/9dcbdaf570a11e205ec6ea86887eb21b.png?type=webp&quality=95&thumbnail=265x265&imageView"
+                                alt="">
+                            <img class="imgScene"
+                                src="https://yanxuan-item.nosdn.127.net/7c04d05d5b8ed3751b9266e5fd89a0e7.jpg?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView">
+                            <div class="promBanner">
+                                <div class="promTitle">
+                                    <div class="title"><span>狂欢特惠</span></div>
+                                    <div class="subTitle"><span style="vertical-align:middle;">¥149</span></div>
+                                </div>
+                                <div class="promContent">仅剩13天</div>
+                            </div>
+                        </div>
+                        <img class="promoLogo" style="width:48px;height:48px;"
+                            src="https://yanxuan.nosdn.127.net/bf43c8b8b8c205b14e3ac27021e04394.png">
+                        <div class="bd">
+
+                            <div class="prdtTags"><span class="m-itemTag "
+                                    data-reactid=".2.3.1.0.0.$0.1.0.$0">狂欢特惠</span><span></span></div>
+                            <h4 class="name1"><span>纯牛奶酸牛奶囤货装</span></h4>
+                            <p class="price11">
+                                <span class="retailPrice">
+                                    <span data-reactid=".2.3.1.0.0.$0.1.2.0.0">¥</span>
+                                    <span data-reactid=".2.3.1.0.0.$0.1.2.0.1">149</span>
+                                </span>
+                                <span class="counterPrice"><span>¥</span><span>169</span></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-product">
+                        <div class="hd">
+                            <img class="imgSceneblock"
+                                src="https://yanxuan-item.nosdn.127.net/9dcbdaf570a11e205ec6ea86887eb21b.png?type=webp&quality=95&thumbnail=265x265&imageView"
+                                alt="">
+                            <img class="imgScene"
+                                src="https://yanxuan-item.nosdn.127.net/7c04d05d5b8ed3751b9266e5fd89a0e7.jpg?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView">
+                            <div class="promBanner">
+                                <div class="promTitle">
+                                    <div class="title"><span>狂欢特惠</span></div>
+                                    <div class="subTitle"><span style="vertical-align:middle;">¥149</span></div>
+                                </div>
+                                <div class="promContent">仅剩13天</div>
+                            </div>
+                        </div>
+                        <img class="promoLogo" style="width:48px;height:48px;"
+                            src="https://yanxuan.nosdn.127.net/bf43c8b8b8c205b14e3ac27021e04394.png">
+                        <div class="bd">
+
+                            <div class="prdtTags"><span class="m-itemTag "
+                                    data-reactid=".2.3.1.0.0.$0.1.0.$0">狂欢特惠</span><span></span></div>
+                            <h4 class="name1"><span>纯牛奶酸牛奶囤货装</span></h4>
+                            <p class="price11">
+                                <span class="retailPrice">
+                                    <span data-reactid=".2.3.1.0.0.$0.1.2.0.0">¥</span>
+                                    <span data-reactid=".2.3.1.0.0.$0.1.2.0.1">149</span>
+                                </span>
+                                <span class="counterPrice"><span>¥</span><span>169</span></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-product">
+                        <div class="hd">
+                            <img class="imgSceneblock"
+                                src="https://yanxuan-item.nosdn.127.net/9dcbdaf570a11e205ec6ea86887eb21b.png?type=webp&quality=95&thumbnail=265x265&imageView"
+                                alt="">
+                            <img class="imgScene"
+                                src="https://yanxuan-item.nosdn.127.net/7c04d05d5b8ed3751b9266e5fd89a0e7.jpg?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView">
+                            <div class="promBanner">
+                                <div class="promTitle">
+                                    <div class="title"><span>狂欢特惠</span></div>
+                                    <div class="subTitle"><span style="vertical-align:middle;">¥149</span></div>
+                                </div>
+                                <div class="promContent">仅剩13天</div>
+                            </div>
+                        </div>
+                        <img class="promoLogo" style="width:48px;height:48px;"
+                            src="https://yanxuan.nosdn.127.net/bf43c8b8b8c205b14e3ac27021e04394.png">
+                        <div class="bd">
+
+                            <div class="prdtTags"><span class="m-itemTag "
+                                    data-reactid=".2.3.1.0.0.$0.1.0.$0">狂欢特惠</span><span></span></div>
+                            <h4 class="name1"><span>纯牛奶酸牛奶囤货装</span></h4>
+                            <p class="price11">
+                                <span class="retailPrice">
+                                    <span data-reactid=".2.3.1.0.0.$0.1.2.0.0">¥</span>
+                                    <span data-reactid=".2.3.1.0.0.$0.1.2.0.1">149</span>
+                                </span>
+                                <span class="counterPrice"><span>¥</span><span>169</span></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="gg-wrow">
+                <div class="centerl">
+                    <p class="f-clearfix">
+                        秋冬好物
+                    </p>
+                    <p class="desc">秋冬好物</p>
+                </div>
+                <div class="hsso">
+                    <div class="m-product">
+                        <div class="hd">
+                            <img class="imgSceneblock"
+                                src="https://yanxuan-item.nosdn.127.net/9dcbdaf570a11e205ec6ea86887eb21b.png?type=webp&quality=95&thumbnail=265x265&imageView"
+                                alt="">
+                            <img class="imgScene"
+                                src="https://yanxuan-item.nosdn.127.net/7c04d05d5b8ed3751b9266e5fd89a0e7.jpg?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView">
+                            <div class="promBanner">
+                                <div class="promTitle">
+                                    <div class="title"><span>狂欢特惠</span></div>
+                                    <div class="subTitle"><span style="vertical-align:middle;">¥149</span></div>
+                                </div>
+                                <div class="promContent">仅剩13天</div>
+                            </div>
+                        </div>
+                        <img class="promoLogo" style="width:48px;height:48px;"
+                            src="https://yanxuan.nosdn.127.net/bf43c8b8b8c205b14e3ac27021e04394.png">
+                        <div class="bd">
+
+                            <div class="prdtTags"><span class="m-itemTag "
+                                    data-reactid=".2.3.1.0.0.$0.1.0.$0">狂欢特惠</span><span></span></div>
+                            <h4 class="name1"><span>纯牛奶酸牛奶囤货装</span></h4>
+                            <p class="price11">
+                                <span class="retailPrice">
+                                    <span data-reactid=".2.3.1.0.0.$0.1.2.0.0">¥</span>
+                                    <span data-reactid=".2.3.1.0.0.$0.1.2.0.1">149</span>
+                                </span>
+                                <span class="counterPrice"><span>¥</span><span>169</span></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-product">
+                        <div class="hd">
+                            <img class="imgSceneblock"
+                                src="https://yanxuan-item.nosdn.127.net/9dcbdaf570a11e205ec6ea86887eb21b.png?type=webp&quality=95&thumbnail=265x265&imageView"
+                                alt="">
+                            <img class="imgScene"
+                                src="https://yanxuan-item.nosdn.127.net/7c04d05d5b8ed3751b9266e5fd89a0e7.jpg?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView">
+                            <div class="promBanner">
+                                <div class="promTitle">
+                                    <div class="title"><span>狂欢特惠</span></div>
+                                    <div class="subTitle"><span style="vertical-align:middle;">¥149</span></div>
+                                </div>
+                                <div class="promContent">仅剩13天</div>
+                            </div>
+                        </div>
+                        <img class="promoLogo" style="width:48px;height:48px;"
+                            src="https://yanxuan.nosdn.127.net/bf43c8b8b8c205b14e3ac27021e04394.png">
+                        <div class="bd">
+
+                            <div class="prdtTags"><span class="m-itemTag "
+                                    data-reactid=".2.3.1.0.0.$0.1.0.$0">狂欢特惠</span><span></span></div>
+                            <h4 class="name1"><span>纯牛奶酸牛奶囤货装</span></h4>
+                            <p class="price11">
+                                <span class="retailPrice">
+                                    <span data-reactid=".2.3.1.0.0.$0.1.2.0.0">¥</span>
+                                    <span data-reactid=".2.3.1.0.0.$0.1.2.0.1">149</span>
+                                </span>
+                                <span class="counterPrice"><span>¥</span><span>169</span></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-product">
+                        <div class="hd">
+                            <img class="imgSceneblock"
+                                src="https://yanxuan-item.nosdn.127.net/9dcbdaf570a11e205ec6ea86887eb21b.png?type=webp&quality=95&thumbnail=265x265&imageView"
+                                alt="">
+                            <img class="imgScene"
+                                src="https://yanxuan-item.nosdn.127.net/7c04d05d5b8ed3751b9266e5fd89a0e7.jpg?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView">
+                            <div class="promBanner">
+                                <div class="promTitle">
+                                    <div class="title"><span>狂欢特惠</span></div>
+                                    <div class="subTitle"><span style="vertical-align:middle;">¥149</span></div>
+                                </div>
+                                <div class="promContent">仅剩13天</div>
+                            </div>
+                        </div>
+                        <img class="promoLogo" style="width:48px;height:48px;"
+                            src="https://yanxuan.nosdn.127.net/bf43c8b8b8c205b14e3ac27021e04394.png">
+                        <div class="bd">
+
+                            <div class="prdtTags"><span class="m-itemTag "
+                                    data-reactid=".2.3.1.0.0.$0.1.0.$0">狂欢特惠</span><span></span></div>
+                            <h4 class="name1"><span>纯牛奶酸牛奶囤货装</span></h4>
+                            <p class="price11">
+                                <span class="retailPrice">
+                                    <span data-reactid=".2.3.1.0.0.$0.1.2.0.0">¥</span>
+                                    <span data-reactid=".2.3.1.0.0.$0.1.2.0.1">149</span>
+                                </span>
+                                <span class="counterPrice"><span>¥</span><span>169</span></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-product">
+                        <div class="hd">
+                            <img class="imgSceneblock"
+                                src="https://yanxuan-item.nosdn.127.net/9dcbdaf570a11e205ec6ea86887eb21b.png?type=webp&quality=95&thumbnail=265x265&imageView"
+                                alt="">
+                            <img class="imgScene"
+                                src="https://yanxuan-item.nosdn.127.net/7c04d05d5b8ed3751b9266e5fd89a0e7.jpg?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView">
+                            <div class="promBanner">
+                                <div class="promTitle">
+                                    <div class="title"><span>狂欢特惠</span></div>
+                                    <div class="subTitle"><span style="vertical-align:middle;">¥149</span></div>
+                                </div>
+                                <div class="promContent">仅剩13天</div>
+                            </div>
+                        </div>
+                        <img class="promoLogo" style="width:48px;height:48px;"
+                            src="https://yanxuan.nosdn.127.net/bf43c8b8b8c205b14e3ac27021e04394.png">
+                        <div class="bd">
+
+                            <div class="prdtTags"><span class="m-itemTag "
+                                    data-reactid=".2.3.1.0.0.$0.1.0.$0">狂欢特惠</span><span></span></div>
+                            <h4 class="name1"><span>纯牛奶酸牛奶囤货装</span></h4>
+                            <p class="price11">
+                                <span class="retailPrice">
+                                    <span data-reactid=".2.3.1.0.0.$0.1.2.0.0">¥</span>
+                                    <span data-reactid=".2.3.1.0.0.$0.1.2.0.1">149</span>
+                                </span>
+                                <span class="counterPrice"><span>¥</span><span>169</span></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div> -->
+
+
+        </div>
+
+
+    </div>
+
+    <div id="footer"></div>
+    <script src="./js/swiper-5.0.4/package/js/swiper.min.js"></script>
+</body>
+
+</html>

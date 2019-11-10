@@ -1,0 +1,114 @@
+[
+  {
+    "list": [
+      {
+        "img": "./img/new23.webp",
+        "img1": "./img/new24.webp",
+        "title": "狂欢特惠",
+        "txt": "¥53",
+        "tx": "",
+        "txts": "仅剩16天",
+        "txt1": "狂欢特惠",
+        "tit": "防滑衣架  5个装",
+        "price": "53",
+        "price1": "58",
+        "bg":"1"
+      },
+      {
+        "img": "./img/new1.webp",
+        "img1": "./img/new2.webp",
+        "title": "新品尝鲜",
+        "txt": "¥17.9",
+        "tx": "起",
+        "txts": "限600件 仅剩12天",
+        "txt1": "新品尝鲜",
+        "tit": "防滑衣架  5个装",
+        "price": "17.9",
+        "price1": "19.9",
+        "bg":"1"
+      },
+      {
+        "img": "./img/new3.webp",
+        "img1": "./img/new4.webp",
+        "title": "新品尝鲜",
+        "txt": "¥35.9",
+        "tx": "起",
+        "txts": "限200件 仅剩12天",
+        "txt1": "新品尝鲜",
+        "tit": "吸盘墙面置物系列",
+        "price": "35.9",
+        "price1": "45.9",
+        "bg":"1"
+      },
+      {
+        "img": "./img/new5.webp",
+        "img1": "./img/new6.webp",
+        "title": "11.11",
+        "tx": "",
+        "txt": "定金预售",
+        "txts": "49抵249 仅剩11天",
+        "txt1": "定金购",
+        "tit": "日本设计 智能暖被烘干机",
+        "price": "699",
+        "price1": "699",
+        "bg":"1"
+      }
+    ]
+  },
+  {
+    "list": [
+      {
+        "img": "./img/new7.webp",
+        "img1": "./img/new8.webp",
+        "title": "8折券提前抢",
+        "txt": "10.29-10.31",
+        "tx": "",
+        "txts": "开通超会享优惠",
+        "txt1": "",
+        "tit": "鸭鸭零食礼包",
+        "price": "129",
+        "price1": "",
+        "bg":"0"
+      },
+      {
+        "img": "./img/new9.webp",
+        "img1": "./img/new10.webp",
+        "title": "11.11",
+        "txt": "定金预售",
+        "tx": "",
+        "txts": "39抵128 仅剩11天",
+        "txt1": "定金购",
+        "tit": "一体式哺乳文胸+月子服套装",
+        "price": "189",
+        "price1": "278",
+        "bg":"1"
+      },
+      {
+        "img": "./img/new11.webp",
+        "img1": "./img/new12.webp",
+        "title": "狂欢特惠",
+        "txt": "¥99",
+        "tx": "",
+        "txts": "仅剩16天",
+        "txt1": "狂欢特惠",
+        "tit": "婴童3D透气定型枕",
+        "price": "99",
+        "price1": "109",
+        "bg":"1"
+      },
+      {
+        "img": "./img/new13.webp",
+        "img1": "./img/new14.webp",
+        "title": "11.11",
+        "txt": "定金预售",
+        "tx": "",
+        "txts": "49抵150 仅剩11天",
+        "txt1": "定金购",
+        "tit": "双边吸奶器+防溢乳垫",
+        "price": "299",
+        "price1": "400",
+        "bg":"1"
+      }
+    ]
+  }
+]

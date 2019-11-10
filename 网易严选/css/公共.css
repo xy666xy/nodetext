@@ -1,0 +1,329 @@
+body, button, input, select, textarea {
+    outline: 0;
+    font: 12px/1.5 "Microsoft Yahei","微软雅黑",verdana;
+}
+.g-bd-list{
+    padding-bottom: 80px;
+    background-color: #f5f5f5;
+}
+.g-row {
+    width: 1090px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    /* height: 200px; */
+}
+.m-crumbs {
+    font-size: 12px;
+    color: #333;
+    line-height: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.m-crumbs .arrow-right-hollow {
+    margin: 0 5px;
+}
+.arrow-right-hollow {
+    display: inline-block;
+    background-image: -webkit-image-set(url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x1/arrow-s8eb4a167a2-0736acf6d3.png) 1x,url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x2/arrow-s0b57ac21d9-8e71743ee5.png) 2x);
+    background-position: 0 -1093px;
+    background-repeat: no-repeat;
+    height: 11px;
+    width: 5px;
+}
+.m-crumbs a, .m-crumbs a:hover {
+    color: #333;
+}
+a {
+    color: #333;
+}
+a, a:hover {
+    text-decoration: none;
+}
+.m-crumbs .z-cur {
+    color: #999;
+}
+.m-indexFocus {
+    height: 330px;
+    overflow: hidden;
+    margin-top: 2px;
+}
+.m-goodsArea{
+    padding: 0 40px;
+    position: relative;
+    background-color: #fff;
+}
+.m-sortBar {
+    margin-top: 10px;
+    border-bottom: 1px solid #eaeaea;
+    overflow: hidden;
+}
+.category{
+    overflow: hidden;
+    border-top: 1px dashed #dedede;
+    line-height: 1;
+    padding-top: 20px;
+}
+.m-sortBar .area .name, .m-sortBar .category .name, .m-sortBar .manufacture .name {
+    font-size: 14px;
+    color: #999;
+    float: left;
+    margin-right: 28px;
+}
+
+.categoryGroup, .m-sortBar .manufacture .categoryGroup {
+    overflow: hidden;
+    float: left;
+    margin-bottom: 4px;
+    width: 930px;
+}
+.m-sortBar .active, .m-sortBar .sorts .priceSure .reset:hover {
+    color: #b4a078;
+}
+.categoryItem:hover{
+    color: #b4a078;  
+}
+.m-sortBar .area .categoryItem, .m-sortBar .category .categoryItem, .m-sortBar .manufacture .categoryItem {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+.m-sortBar .sorts {
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+    line-height: 1;
+    border-top: 1px dashed #dedede;
+}
+.m-sortBar .area .name {
+    margin-right: 0;
+}
+.m-sortBar .area {
+    overflow: hidden;
+    border-top: 1px dashed #dedede;
+    line-height: 1;
+    padding-top: 20px;
+}
+
+.m-sortBar .sorts .name {
+    font-size: 14px;
+    color: #999;
+    margin-right: 28px;
+}
+.m-sortBar .sorts .sort {
+    margin-right: 30px;
+    font-size: 14px;
+}
+.m-sortBar .icon {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+/* 最后 */
+.m-product {
+    width: 242px;
+    height: 344.6px;
+    background: #f4f4f4;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.gg-wrow{
+    width: 1090px;
+    background: #fff;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.hsso{
+    overflow: hidden;
+    width: 1010px;
+    margin: 0 auto;
+    
+}
+.hd {
+    width: 265px;
+    height: 265px;
+    margin-bottom: 8px;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.promoLogo {
+    display: block;
+    position: absolute;
+    left: 6px;
+    top: 6px;
+}
+
+.promBanner {
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-repeat: no-repeat;
+    padding-right: 10px;
+
+    background-image: url(https://yanxuan.nosdn.127.net/5e5ba7f9c3805cc8085368ed41aaff65.png);
+
+}
+
+.promTitle {
+    max-width: 200px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right;
+    margin-top: -6px;
+    z-index: 1;
+    padding-left: 8px;
+    padding-right: 14px;
+    float: left;
+    border-top-left-radius: 3px;
+    background-image: url(https://yanxuan.nosdn.127.net/ced6f7cfbd566e260ea67ec486cb9b60.png);
+}
+
+.title {
+    font-size: 12px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 0;
+    padding-top: 0;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.promTitle .subTitle {
+    font-size: 14px;
+    height: 20px;
+    line-height: 14px;
+    margin-top: -1px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.promContent {
+    color: #fff;
+    text-align: left;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 4px;
+    padding-left: 4px;
+}
+
+.bd {
+    width: 265px;
+    height: 71.6px;
+    position: relative;
+}
+
+.m-product .prdtTags {
+    height: 20px;
+    font-size: 0;
+    color: #fff;
+    width: 200px;
+    margin: 0 auto 3px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.m-product .name1 {
+    margin-bottom: 4px;
+    height: 20px;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 13px;
+}
+
+.m-product h4.name1 {
+    padding: 0 10px;
+}
+
+.name1:hover {
+    color: #b4a078;
+}
+
+.m-itemTag {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    color: #fff !important;
+    padding: 0 5px;
+    font-size: 12px;
+    background-color: #e36844;
+}
+
+.price11 {
+    font-size: 13px;
+    line-height: 13px;
+    color: #d4282d;
+    padding: 1px 0 9px;
+    margin: 0;
+    text-align: center;
+}
+
+.counterPrice {
+    font-size: 12px;
+    color: #999;
+    top: 2px;
+    text-decoration: line-through;
+}
+
+.imgScene {
+    display: none;
+}
+
+.m-product:hover .imgScene {
+    display: block;
+}
+
+.m-product:hover .imgSceneblock {
+    display: none;
+}
+
+.m-product:hover {
+    -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, .2);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, .2);
+    background-color: #f4f0ea;
+}
+.centerl{
+    text-align: center;
+    margin: 40px auto;
+}
+.f-clearfix{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 44px;
+}
+.desc{
+    font-size: 14px;
+    color: #999;
+    line-height: 1.5;
+}
+
+
+
+
+
